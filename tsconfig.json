@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "baseUrl": ".",
+      "lib": [ 
+        "es2015",
+        "dom"
+      ],
+      "paths": {
+        "@*": ["src/*"]
+      },
+      "plugins": [
+        { "name": "typescript-styled-plugin", "lint": { "validProperties": "label" } }
+      ]
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}

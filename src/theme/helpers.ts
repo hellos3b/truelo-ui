@@ -1,0 +1,1 @@
+export const Label = (name: string) => `label: ${name};`
